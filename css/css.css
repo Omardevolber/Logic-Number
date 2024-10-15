@@ -106,7 +106,7 @@ button:hover {
     height: auto;
     margin-bottom: 20px;
 }
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     body {
         padding: 10px;
     }
@@ -141,4 +141,4 @@ button:hover {
     .output-hexadecimal-sub {
         font-size: 25px;
     }
-}
+}*/
