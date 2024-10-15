@@ -107,3 +107,39 @@ button:hover {
     height: auto;
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+    input, select {
+        width: calc(100% - 20px);
+        padding: 8px;
+        font-size: 16px;
+    }
+    .conversionType {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .output-decimal,
+    .output-binary,
+    .output-octal,
+    .output-hexadecimal {
+        font-size: 20px;
+    }
+    .output-decimal-sub,
+    .output-binary-sub,
+    .output-octal-sub,
+    .output-hexadecimal-sub {
+        font-size: 25px;
+    }
+}
